@@ -13,5 +13,87 @@ body {
 }
 
 header {
+    padding: 3rem;
     background-color: #222221 ;
+}
+
+.logo__nav {
+    width: 12rem;
+}
+
+.seccionprincipal {
+    padding-top: 4rem;
+}
+
+.seccionprincipal__imagen {
+    width: 40rem;
+}
+h1 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 3.8rem;
+    line-height: 4rem;
+}
+
+p {
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+.logosprogramas {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 3rem;
+}
+
+.logosprogramas__abajo {
+display: flex;
+flex-direction: row;
+justify-content:center;
+}
+.logosprogramas__arriba {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logosprogramas__arriba__vba {
+    width: 5rem;
+    margin: 2rem;
+}
+.logosprogramas__arriba__excel {
+    width: 7rem;
+    margin: 2rem;
+}
+.logosprogramas__arriba__python {
+    width: 9rem;
+    margin: 2rem;
+}
+.logosprogramas__abajo__googlesheets {
+    width: 11rem;
+    margin: 2rem;
+}
+.logosprogramas__abajo__powerbi {
+    width: 9rem;
+    margin: 2rem;
+}
+
+footer {
+    padding: 3rem;
+    margin-top: 3rem;
+    background-color: #222221;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+
+}
+.footer__logo {
+    width: 12rem;
+}
+footer div a img {
+    padding: 1rem;
 }
